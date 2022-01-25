@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Comfort Me with Apples",
+    "author": ["Catherynne M. Valente"],
+    "format": "novella",
+    "genre": "science fiction",
+    "length": 103,
+    "tags": ["creepy", "atmospheric"]
+  },
+  {
+    "title": "Nothing But Blackened Teeth",
+    "author": ["Cassandra Khaw"],
+    "format": "novella",
+    "genre": "horror",
+    "length": 125,
+    "tags": ["menacing"]
+  },
+  {
+    "title": "The Starlit Wood",
+    "author": [
+      "Dominik Parisien",
+      "Navah Wolfe",
+      "Seanan McGuire",
+      "Naomi Novik"
+    ],
+    "format": "anthology",
+    "genre": "fantasy",
+    "length": 392,
+    "tags": ["fairytales"]
+  },
+  {
+    "title": "Voice of War",
+    "author": ["Zack Argyle"],
+    "format": "novel",
+    "genre": "fantasy",
+    "length": 366,
+    "tags": ["worldbuilding", "epic"]
+  },
+  {
+    "title": "The Blacktongue Thief",
+    "author": ["Christopher Buehlman"],
+    "format": "novel",
+    "genre": "fantasy",
+    "length": 416,
+    "tags": ["humorous", "flawed characters"]
+  },
+  {
+    "title": "Norylska Groans",
+    "author": ["Michael R. Fletcher", "Clayton W. Snyder"],
+    "format": "novel",
+    "genre": "fantasy",
+    "length": 393,
+    "tags": ["bleak", "atmospheric"]
+  },
+  {
+    "title": "People We Meet on Vacation",
+    "author": ["Emily Henry"],
+    "format": "novel",
+    "genre": "romance",
+    "length": 364,
+    "tags": ["friends to lovers", "beach read"]
+  },
+  {
+    "title": "Billy Summers",
+    "author": ["Stephen King"],
+    "format": "novel",
+    "genre": "thriller",
+    "length": 515,
+    "tags": ["fast-paced", "suspenseful"]
+  },
+  {
+    "title": "Pride and Premeditation",
+    "author": ["Tirzah Price"],
+    "format": "novel",
+    "genre": "mystery",
+    "length": 380,
+    "tags": ["retelling", "slow-paced"]
+  },
+  {
+    "title": "The Name of the Rose",
+    "author": ["Umberto Eco"],
+    "format": "novel",
+    "genre": "historical fiction",
+    "length": 579,
+    "tags": ["humorous", "literary"]
+  }
+]
