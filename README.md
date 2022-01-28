@@ -10,6 +10,8 @@ This project was inspired by my love of reading and my tendency to read accordin
 - Back-end
 -- Mongoose (MongoDB)
 -- Express.js
+-- Apollo Server
+-- GraphQL
 - Node.js
 
 ## Challenges
