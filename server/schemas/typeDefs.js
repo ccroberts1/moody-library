@@ -14,6 +14,7 @@ const typeDefs = gql`
   type Query {
     books: [Book]!
     book(bookId: ID!): Book
+    tags(tagName: String!): Book
   }
 
   type Mutation {

@@ -9,6 +9,9 @@ const resolvers = {
     book: async (parent, args) => {
       return Book.findOne({ _id: bookId });
     },
+    tags: async (parent, {tagName}) => {
+      return Book.find({tags: { $elemMatch: { $eq: {tagName} }}});
+    }
   },
 
   Mutation: {
