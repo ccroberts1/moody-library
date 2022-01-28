@@ -6,7 +6,7 @@ This project was inspired by my love of reading and my tendency to read accordin
 ## Required Elements
 - Front-end
 -- React
--- React Bootstrap
+-- Semantic UI
 - Back-end
 -- Mongoose (MongoDB)
 -- Express.js
