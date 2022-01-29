@@ -1,13 +1,13 @@
 const sequelize = require("../config/connection");
-const { Book, Tag, BookTag } = require("../models");
+const Book = require("../models/Book");
 
 const bookSeedData = require("./bookSeedData.json");
 // const tagSeedData = require("./tagSeedData.json");
 
 const seedDatabase = async () => {
-  await sequelize.sync({ force: true });
+  await sequelize.sync();
 
-  const books = await Book.bulkCreate(bookSeedData);
+  await Book.bulkCreate(bookSeedData);
 
   process.exit(0);
 };
