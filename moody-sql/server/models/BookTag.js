@@ -24,3 +24,5 @@ BookTag.init({
     },
   },
 });
+
+module.exports = BookTag;
