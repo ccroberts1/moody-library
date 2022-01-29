@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Comfort Me with Apples",
+    "author": ["Catherynne M. Valente"],
+    "format": "novella",
+    "genre": "science fiction",
+    "pages": 103
+  },
+  {
+    "title": "Nothing But Blackened Teeth",
+    "author": ["Cassandra Khaw"],
+    "format": "novella",
+    "genre": "horror",
+    "pages": 125
+  },
+  {
+    "title": "The Starlit Wood",
+    "author": [
+      "Dominik Parisien",
+      "Navah Wolfe",
+      "Seanan McGuire",
+      "Naomi Novik"
+    ],
+    "format": "anthology",
+    "genre": "fantasy",
+    "pages": 392
+  },
+  {
+    "title": "Voice of War",
+    "author": ["Zack Argyle"],
+    "format": "novel",
+    "genre": "fantasy",
+    "pages": 366
+  },
+  {
+    "title": "The Blacktongue Thief",
+    "author": ["Christopher Buehlman"],
+    "format": "novel",
+    "genre": "fantasy",
+    "pages": 416
+  },
+  {
+    "title": "Norylska Groans",
+    "author": ["Michael R. Fletcher", "Clayton W. Snyder"],
+    "format": "novel",
+    "genre": "fantasy",
+    "pages": 393
+  },
+  {
+    "title": "People We Meet on Vacation",
+    "author": ["Emily Henry"],
+    "format": "novel",
+    "genre": "romance",
+    "pages": 364
+  },
+  {
+    "title": "Billy Summers",
+    "author": ["Stephen King"],
+    "format": "novel",
+    "genre": "thriller",
+    "pages": 515
+  },
+  {
+    "title": "Pride and Premeditation",
+    "author": ["Tirzah Price"],
+    "format": "novel",
+    "genre": "mystery",
+    "pages": 380
+  },
+  {
+    "title": "The Name of the Rose",
+    "author": ["Umberto Eco"],
+    "format": "novel",
+    "genre": "historical fiction",
+    "pages": 579
+  }
+]
