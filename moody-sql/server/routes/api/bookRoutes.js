@@ -2,17 +2,19 @@ const router = require("express").Router();
 
 const Book = require("../../models/Book");
 
-router.get("/allBooks", async (req, res) => {
-  const bookData = Book.findAll().catch((err) => {
-    res.json(err);
-  });
-  res.json(bookData);
+router.get("/", async (req, res) => {
+  try {
+    const bookData = await Book.findAll();
+    res.json(bookData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
 router.get("/:bookId", async (req, res) => {
   const bookData = await Book.findOne({
     where: {
-      book_id: req.params.bookId,
+      id: req.params.bookId,
     },
   }).catch((err) => {
     res.json(err);
@@ -32,7 +34,7 @@ router.put("/:bookId", async (req, res) => {
     },
     {
       where: {
-        book_id: req.params.bookId,
+        id: req.params.bookId,
       },
     }
   ).catch((err) => {
@@ -44,7 +46,7 @@ router.put("/:bookId", async (req, res) => {
 router.delete("/:bookId", async (req, res) => {
   const deletedBook = await Book.destroy({
     where: {
-      book_id: req.params.bookId,
+      id: req.params.bookId,
     },
   }).catch((err) => {
     res.json(err);
@@ -52,10 +54,16 @@ router.delete("/:bookId", async (req, res) => {
   res.json(deletedBook);
 });
 
-router.post("/addBook", async (req, res) => {
+router.post("/", async (req, res) => {
   try {
-    const newBook = await Book.create(req.body);
-    res.status(200).json(userData);
+    const newBook = await Book.create({
+      title: req.body.title,
+      author: req.body.author,
+      format: req.body.format,
+      genre: req.body.genre,
+      pages: req.body.pages,
+    });
+    res.status(200).json(newBook);
   } catch (err) {
     res.status(400).json(err);
   }

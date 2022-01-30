@@ -1,0 +1,32 @@
+[
+  {
+    "name": "fast-paced"
+  },
+  {
+    "name": "slow-paced"
+  },
+  {
+    "name": "character-driven"
+  },
+  {
+    "name": "plot-driven"
+  },
+  {
+    "name": "worldbuilding"
+  },
+  {
+    "name": "creepy"
+  },
+  {
+    "name": "humorous"
+  },
+  {
+    "name": "suspenseful"
+  },
+  {
+    "name": "cozy"
+  },
+  {
+    "name": "atmospheric"
+  }
+]
