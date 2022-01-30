@@ -1,0 +1,23 @@
+{
+  "name": "moody-library",
+  "version": "1.0.0",
+  "description": "Get book recommendations based on books in the library according to the mood you're in",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccroberts1/moody-library.git"
+  },
+  "keywords": [
+    "books",
+    "reading"
+  ],
+  "author": "Caitlin Roberts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccroberts1/moody-library/issues"
+  },
+  "homepage": "https://github.com/ccroberts1/moody-library#readme"
+}
