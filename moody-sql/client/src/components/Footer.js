@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <section className="mb-4 d-flex flex-column align-items-center">
         <p className="lead text-center mt-3">Created by Caitlin Roberts </p>
-        <div classname="links-container">
+        <div className="links-container">
           <a
             href="https://github.com/ccroberts1"
             className="btn btn-outline-light btn-floating m-3"

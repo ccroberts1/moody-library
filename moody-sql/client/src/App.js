@@ -1,14 +1,14 @@
 import "./App.css";
-import axios from "axios";
-import { useEffect } from "react";
+// import axios from "axios";
+// import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 function App() {
-  useEffect(() => {
-    axios.get("http://localhost:3001/");
-  });
+  // useEffect(() => {
+  //   axios.get("http://localhost:3001/");
+  // });
   return (
     <>
       <div className="container-fluid">

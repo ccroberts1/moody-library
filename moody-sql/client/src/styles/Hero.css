@@ -1,0 +1,27 @@
+#hero {
+  background-image: url("../../public/images/reading_hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 6rem !important;
+  font-weight: bolder !important;
+  color: var(--dark-theme);
+  text-shadow: 2px 2px var(--light-theme);
+}
+
+h2 {
+  color: var(--light-theme);
+  text-shadow: 2px 2px var(--dark-theme);
+}
+p {
+  font-size: 14px;
+  text-align: end;
+}
+
+p a:link {
+  color: grey;
+}
