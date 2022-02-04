@@ -1,8 +1,9 @@
 const router = require("express").Router();
+const cors = require("cors");
 
 const Book = require("../../models/Book");
 
-router.get("/", async (req, res) => {
+router.get("/", cors(), async (req, res) => {
   try {
     const bookData = await Book.findAll();
     res.json(bookData);
@@ -60,15 +61,10 @@ router.delete("/:bookId", async (req, res) => {
   }
 });
 
-router.post("/", async (req, res) => {
+router.post("/", cors(), async (req, res) => {
   try {
-    const newBook = await Book.create({
-      title: req.body.title,
-      author: req.body.author,
-      format: req.body.format,
-      genre: req.body.genre,
-      pages: req.body.pages,
-    });
+    const newBook = req.body;
+    await Book.create(newBook);
     res.status(200).json(newBook);
   } catch (err) {
     res.status(400).json(err);

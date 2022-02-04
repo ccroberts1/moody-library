@@ -2,71 +2,81 @@
   {
     "title": "Comfort Me with Apples",
     "author": "Catherynne M. Valente",
-    "format": "novella",
-    "genre": "science fiction",
-    "pages": 103
+    "format": "Novella",
+    "genre": "Science Fiction",
+    "pages": 103,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611930168l/56179382.jpg"
   },
   {
     "title": "Nothing But Blackened Teeth",
     "author": "Cassandra Khaw",
-    "format": "novella",
-    "genre": "horror",
-    "pages": 125
+    "format": "Novella",
+    "genre": "Horror",
+    "pages": 125,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610469240l/53195923.jpg"
   },
   {
     "title": "The Starlit Wood",
     "author": "Dominik Parisien, Navah Wolfe et al.",
-    "format": "anthology",
-    "genre": "fantasy",
-    "pages": 392
+    "format": "Anthology",
+    "genre": "Fantasy",
+    "pages": 392,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487554469l/27370017._SY475_.jpg"
   },
   {
     "title": "Voice of War",
     "author": "Zack Argyle",
-    "format": "novel",
-    "genre": "fantasy",
-    "pages": 366
+    "format": "Novel",
+    "genre": "Fantasy",
+    "pages": 366,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603734605l/55808604._SX318_.jpg"
   },
   {
     "title": "The Blacktongue Thief",
     "author": "Christopher Buehlman",
-    "format": "novel",
-    "genre": "fantasy",
-    "pages": 416
+    "format": "Novel",
+    "genre": "Fantasy",
+    "pages": 416,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1604069900l/55077697.jpg"
   },
   {
     "title": "Norylska Groans",
     "author": "Michael R. Fletcher & Clayton W. Snyder",
-    "format": "novel",
-    "genre": "fantasy",
-    "pages": 393
+    "format": "Novel",
+    "genre": "Fantasy",
+    "pages": 393,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618148302l/57298496._SY475_.jpg"
   },
   {
     "title": "People We Meet on Vacation",
     "author": "Emily Henry",
-    "format": "novel",
-    "genre": "romance",
-    "pages": 364
+    "format": "Novel",
+    "genre": "Romance",
+    "pages": 364,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618913179l/54985743.jpg"
   },
   {
     "title": "Billy Summers",
     "author": "Stephen King",
-    "format": "novel",
-    "genre": "thriller",
-    "pages": 515
+    "format": "Novel",
+    "genre": "Thriller",
+    "pages": 515,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618151020l/56852407.jpg"
   },
   {
     "title": "Pride and Premeditation",
     "author": "Tirzah Price",
-    "format": "novel",
-    "genre": "mystery",
-    "pages": 380
+    "format": "Novel",
+    "genre": "Mystery",
+    "pages": 380,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1604946060l/53914898.jpg"
   },
   {
     "title": "The Name of the Rose",
     "author": "Umberto Eco",
-    "format": "novel",
-    "genre": "historical fiction",
-    "pages": 579
+    "format": "Novel",
+    "genre": "Historical Fiction",
+    "pages": 579,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483108074l/18222775.jpg"
   }
 ]
