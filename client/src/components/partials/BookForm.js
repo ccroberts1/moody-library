@@ -28,6 +28,9 @@ function BookForm() {
       .then((response) => {
         console.log(response);
         console.log("Book added to the database");
+      })
+      .catch((err) => {
+        console.log(err);
       });
   };
   return (
