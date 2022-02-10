@@ -1,3 +1,6 @@
 const Book = require("./Book");
+const Tag = require("./Tag");
+const BookTag = require("./BookTag");
 
-module.exports = {Book};
+Book.belongsToMany(Tag, { through: BookTag });
+Tag.belongsToMany(Book, { through: BookTag });
