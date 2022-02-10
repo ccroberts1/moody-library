@@ -1,7 +1,6 @@
 import "../../styles/MyLibrary.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
-// import api from "./posts";
 
 const MyLibrary = () => {
   const [libraryBooks, setLibraryBooks] = useState([]);

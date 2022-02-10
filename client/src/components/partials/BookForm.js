@@ -2,6 +2,7 @@ import axios from "axios";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { useState } from "react";
+import "../../styles/Form.css";
 
 function BookForm() {
   const [title, setTitle] = useState("");
@@ -9,10 +10,11 @@ function BookForm() {
   const [format, setFormat] = useState("Novel");
   const [genre, setGenre] = useState("Fantasy");
   const [pages, setPages] = useState("");
+  const [img, setImg] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const newBook = { title, author, format, genre, pages };
+    const newBook = { title, author, format, genre, pages, img };
     console.log(newBook);
     axios
       .post("http://localhost:3001/api/books", {
@@ -21,6 +23,7 @@ function BookForm() {
         format: newBook.format,
         genre: newBook.genre,
         pages: newBook.pages,
+        img: newBook.img,
       })
       .then((response) => {
         console.log(response);
@@ -45,6 +48,7 @@ function BookForm() {
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="format">
+          <Form.Label>Format</Form.Label>
           <Form.Select
             value={format}
             onChange={(e) => setFormat(e.target.value)}
@@ -55,6 +59,7 @@ function BookForm() {
           </Form.Select>
         </Form.Group>
         <Form.Group className="mb-3" controlId="genre">
+          <Form.Label>Genre</Form.Label>
           <Form.Select value={genre} onChange={(e) => setGenre(e.target.value)}>
             <option value="Contemporary Fiction">Contemporary Fiction</option>
             <option value="Historical Fiction">Historical Fiction</option>
@@ -73,6 +78,10 @@ function BookForm() {
             value={pages}
             onChange={(e) => setPages(e.target.value)}
           />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="pages">
+          <Form.Label>Image URL</Form.Label>
+          <Form.Control value={img} onChange={(e) => setImg(e.target.value)} />
         </Form.Group>
 
         <Button variant="dark" type="submit">
