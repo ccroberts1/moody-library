@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Navigation from "./components/Nav";
 import Footer from "./components/Footer";
 import MyLibrary from "./components/pages/MyLibrary";
 import AddBook from "./components/pages/AddBook";
@@ -10,7 +10,7 @@ function App() {
     <>
       <div className="container-fluid">
         <div className="row align-items-center">
-          <Navbar />
+          <Navigation />
           <AddBook />
           <Footer />
         </div>
