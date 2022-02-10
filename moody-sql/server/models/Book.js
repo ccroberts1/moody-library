@@ -25,6 +25,9 @@ Book.init(
     pages: {
       type: DataTypes.INTEGER,
     },
+    img: {
+      type: DataTypes.STRING,
+    },
   },
   {
     sequelize,

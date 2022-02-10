@@ -24,13 +24,9 @@ const MyLibrary = () => {
         id="myLibrary"
       >
         {libraryBooks.map((book) => (
-          <div className="card col-10 col-lg-5 m-3">
-            <img
-              src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626979714l/56754734.jpg"
-              className="card-img-top"
-              alt="Cover of book"
-            />
-            <div className="card-body" key={book.id}>
+          <div className="card col-10 col-lg-5 m-3" key={book.id}>
+            <img src={book.img} className="card-img-top" alt="Cover of book" />
+            <div className="card-body">
               <h3 className="card-title">Title: {book.title}</h3>
               <h4 className="card-text">Author: {book.author}</h4>
               <h5 className="card-text">Genre: {book.genre}</h5>
